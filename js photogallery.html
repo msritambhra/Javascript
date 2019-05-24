@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Photo Gallery </title>
+	<script src="js photogallery.js"></script>
+	<style type="text/css">
+		body { 
+					margin: 2%;
+					border: 1px solid black;
+					background-color: 
+		 }
+
+		 #image {
+		 			border : 2px solid black;
+		 			margin : 0 auto;
+		 			text-align: center;
+		 			/*background-image: url(' ');*/
+		 			background-size: 100%;
+		 			background-repeat: no-repeat;
+		 			height: 250px;
+		 			width: 250px;
+		 			text-align: center;
+
+		 }
+	</style>
+</head>
+
+<body>
+
+	<div id="image">
+		Hover over this to change the image.
+	</div>
+
+	<hr>
+
+	<img class = "preview" height = 250 width =250 alt = "Red Rose" src = "http://pm1.narvii.com/6538/bc0d79404627a7e7425065a443bba1060f76b93b_00.jpg " onmouseover="update(this)" onmouseout = "unDo()">
+
+	<img class = "preview" height = 250 width =250 alt = "White Rose" src = "https://i.pinimg.com/originals/93/a7/2d/93a72d520a97c9d15b2b7c7fa04a02a5.jpg " onmouseover="update(this)" onmouseout = "unDo()">
+
+	<img class = "preview" height = 250 width =250 alt = "Black Rose" src = "https://data.whicdn.com/images/235235558/large.jpg" onmouseover="update(this)" onmouseout = "unDo()">
+
+  
+</body>
+</html>
